@@ -1,0 +1,90 @@
+/*
+ * Inbounderz theme — observed computed-style snapshot
+ * Source: https://inbounderz.com/ and https://inbounderz.com/assets/css/style.css
+ * Inspected: 2026-10-15. Viewport: 1280 x 720, except marked mobile.
+ * This file is a compact RECORD OF BROWSER-COMPUTED VALUES, not a copy of the
+ * site's authored CSS or a complete stylesheet. Layout may depend on other rules.
+ */
+
+body {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(31, 32, 33);
+  background-color: rgb(255, 255, 255);
+}
+
+header.fixed-top { height: 92px; }
+nav.navbar { height: 92px; padding: 0 15px; }
+/* Desktop navigation links: Manrope, 16px, rgb(255,255,255). */
+
+section.nbannern {
+  background-color: rgb(9, 9, 9);
+  color: rgb(255, 255, 255);
+  padding: 200px 0 70px;
+}
+.nbannern h1 {
+  font-family: Georama;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 57.6px;
+  color: rgb(212, 212, 212);
+  margin-bottom: 30px;
+}
+.nbannern h1 strong { font-weight: 700; color: rgb(241, 241, 241); }
+.nbannern .text360 {
+  font-family: Manrope;
+  font-size: 350px;
+  font-weight: 300;
+  line-height: 420px;
+  color: rgb(227, 226, 226);
+}
+
+section.nservcs { background-color: rgb(10, 10, 9); padding: 60px 0 80px; }
+.nservcs h2 {
+  font-family: Manrope;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 60px;
+  color: rgb(226, 226, 226);
+  margin-bottom: 90px;
+}
+.nservitem { padding: 80px 0; }
+.nservitem h3 {
+  font-family: Manrope;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38.4px;
+  color: rgb(179, 179, 179);
+}
+
+section.about { background-color: white; padding: 70px 0 140px; }
+.about h2 {
+  font-family: Manrope;
+  font-size: 90px;
+  font-weight: 800;
+  line-height: 85px;
+  color: rgb(102, 102, 102);
+}
+section.portfolio { background-color: rgb(24, 24, 23); }
+.portfolio h2 {
+  font-family: Manrope;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: rgb(255, 202, 42);
+  padding: 90px 0;
+}
+.btn-inbo {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(31, 32, 33);
+  background-color: rgb(255, 202, 42);
+  border-radius: 60px;
+  padding: 14px 33px;
+}
+
+/* At 390 x 844, measured .nbannern h1 font-size: 28px. The source has a
+ * separate mobile hero image and collapses navigation below the lg breakpoint.
+ */
