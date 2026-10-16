@@ -6,9 +6,7 @@ Three static design directions for client review: The Reference, The Evolution, 
 
 The publishable site is in `docs/`. Serve it locally with `python3 -m http.server 8000 --directory docs`, then open `http://localhost:8000`. `generate_pages.py` regenerates About, Portfolio, and Contact in `docs/`.
 
-GitHub Pages should publish from the default branch, `/docs` folder. `docs/.nojekyll` tells Pages to serve the static files directly.
-
-The repository can be private, but a GitHub Pages website is normally public. Pages from a private repository requires a supported paid GitHub plan; private website visibility is an Enterprise Cloud feature.
+The public review site is [infinitycastle147.github.io/flora-fountain-design-directions](https://infinitycastle147.github.io/flora-fountain-design-directions/). GitHub Pages publishes from the `main` branch's `/docs` folder. `docs/.nojekyll` tells Pages to serve the static files directly.
 
 ## Research and design decisions
 
